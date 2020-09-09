@@ -1,8 +1,9 @@
 import React from 'react';
+import Page from '../shared/page/Page';
 
 const About = () => {
     return (
-        <div class='container container--narrow py-md-5'>
+        <Page title='About Us'>
             <h2>About Us</h2>
             <p class='lead text-muted'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -25,7 +26,7 @@ const About = () => {
                 quis, quaerat id nobis provident quo dolorum sapiente temporibus
                 facere non repellendus consequatur cupiditate!
             </p>
-        </div>
+        </Page>
     );
 };
 
